@@ -142,9 +142,17 @@ const howtosList = [
     title: 'How to: LED blinking',
     author: 'MIT App Inventor Project',
     img: 'assets/howtos/LinkIt_7697.png',
-    link: 'assets/tutorials/MIT_App_Inventor_LED_7697.pdf',
+    link: 'assets/tutorials/MIT_App_Inventor_7697_LED.pdf',
     description: 'Control the LED light on LinkIt 7697 (Arduino compatible). Turn the light on and off by buttons and speech recognizer.',
     equipment: ['LinkIt 7697', 'LED (optional)'],
+    time: 20,
+  }, {
+    title: 'How to: detect soil moisture',
+    author: 'MIT App Inventor Project',
+    img: 'assets/howtos/LinkIt_7697.png',
+    link: 'assets/tutorials/MIT_App_Inventor_7697_analogread.pdf',
+    description: 'detect soil moisture level with LinkIt 7697 (Arduino compatible) and change images according to the moisture level.',
+    equipment: ['LinkIt 7697', 'moisture sensor'],
     time: 20,
   }
 ];

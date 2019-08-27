@@ -100,6 +100,13 @@ const AppRoutes = (
       <Route path="arduinoservo" component={Arduino101ServoPage} />
       <Route path="arduinosoundrecorder" component={Arduino101SoundRecorderPage} />
     </Route>
+	<Route path="linkit">
+	  <Route path="linkitintro" component={linkitintroPage} />
+      <Route path="linkit7697" component={linkit7697Page} />
+      <Route path="linkit7688" component={linkit7688Page} />
+	</Route>
+	<Route path="legoev3">
+	</Route>
     <Route path="faq">
       <Route path="faq" component={FAQPage} />
     </Route>
